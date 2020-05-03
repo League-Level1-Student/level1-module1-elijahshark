@@ -6,15 +6,8 @@ public class Vault {
 
 	Random ran = new Random();
 	int secretcode;
-	Vault(){
-
-	secretcode = ran.nextInt(100001);
-	
-	
-	
-	
-	
-	
+	Vault(){	
+		secretcode = ran.nextInt(100001);
 	}
 	boolean tryCode(int code) {
 
