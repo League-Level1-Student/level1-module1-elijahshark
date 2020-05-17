@@ -6,6 +6,7 @@ package _01_race_car;
 
 
 
+
 public class RaceCar {
 	private String brand;
 	private int positionInRace;
